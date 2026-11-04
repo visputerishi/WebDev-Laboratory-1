@@ -27,7 +27,7 @@ This repository contains the practical work for the Programming for Web Developm
 
 Open this repository folder in VS Code. Each exercise page linked above is a standalone HTML file; open one in a browser to run it. The complete portfolio is also available at `Module2/portfolio/index.html`. No dependencies or build tools are required.
 
-The portfolio uses sample text such as “Your Name” and `hello@example.com`. Replace those placeholders with your own details before publishing.
+The portfolio and bio pages are personalized for Rishi Vispute. The featured projects are coursework examples from this repository.
 
 ## GitHub repository
 
