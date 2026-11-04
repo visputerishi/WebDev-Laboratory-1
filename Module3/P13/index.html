@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A comparison of CSS Flexbox and Grid layouts.">
+    <title>Flexbox or Grid? — Layout comparison</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <header class="intro">
+        <p class="eyebrow">P13 · Layout systems</p>
+        <h1>Flexbox or Grid<span>.</span></h1>
+        <p>Both are useful. Choose based on whether you are arranging items in one dimension or two.</p>
+      </header>
+      <section aria-labelledby="flex-title">
+        <div class="section-title"><h2 id="flex-title">Flexbox <span>one dimension</span></h2><p>Items flow in a row and wrap as space allows.</p></div>
+        <div class="demo flex-demo">
+          <article><span>01</span><h3>Plan</h3><p>Start with the content.</p></article>
+          <article><span>02</span><h3>Build</h3><p>Arrange on one axis.</p></article>
+          <article><span>03</span><h3>Adapt</h3><p>Allow items to wrap.</p></article>
+        </div>
+      </section>
+      <section aria-labelledby="grid-title">
+        <div class="section-title"><h2 id="grid-title">Grid <span>two dimensions</span></h2><p>Rows and columns work together to create a shared structure.</p></div>
+        <div class="demo grid-demo">
+          <article><span>01</span><h3>Plan</h3><p>Start with the content.</p></article>
+          <article><span>02</span><h3>Build</h3><p>Arrange on one axis.</p></article>
+          <article><span>03</span><h3>Adapt</h3><p>Allow items to wrap.</p></article>
+        </div>
+      </section>
+      <p class="takeaway"><strong>In practice:</strong> use Grid for the overall project-card layout and Flexbox inside a card or header when its content follows one direction.</p>
+    </main>
+  </body>
+</html>

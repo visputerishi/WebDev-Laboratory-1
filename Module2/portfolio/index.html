@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A sample student portfolio built with semantic HTML and CSS.">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Your Name, home">YN<span>.</span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-link" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="home">
+      <section class="hero section-wrap" id="about" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Student · Aspiring web developer</p>
+          <h1 id="hero-title">Hi, I’m <span>Your Name.</span><br>I make ideas work on the web.</h1>
+          <p class="hero-description">I’m learning to build thoughtful, accessible web experiences with HTML and CSS. This portfolio is a small record of what I’m making and learning.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <aside class="hero-note" aria-label="Current focus">
+          <span class="note-mark" aria-hidden="true">✳</span>
+          <p>Currently focused on</p>
+          <strong>Semantic HTML<br>and CSS layouts</strong>
+          <span class="note-line"></span>
+          <small>Learning by building, one page at a time.</small>
+        </aside>
+      </section>
+
+      <section class="projects section-wrap" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">A few things I’ve made</p>
+            <h2 id="projects-title">Selected projects<span class="accent">.</span></h2>
+          </div>
+          <p class="section-aside">Small projects, useful lessons.<br>More on the way.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-lilac">
+            <div class="project-art art-profile" aria-hidden="true"><span>hello<br>world<span class="art-dot">.</span></span></div>
+            <div class="project-overlay">
+              <span class="project-type">HTML · CSS</span>
+              <h3>Personal bio page</h3>
+              <p>A simple, semantic introduction with a clear reading flow.</p>
+              <a href="../P5/bio.html" aria-label="View the personal bio page exercise">View exercise <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="project-caption"><span>01 / Bio page</span><span aria-hidden="true">↗</span></div>
+          </article>
+          <article class="project-card project-peach">
+            <div class="project-art art-layout" aria-hidden="true"><span class="layout-shape"></span><span class="layout-caption">GOOD<br>LAYOUTS<br>FEEL EASY.</span></div>
+            <div class="project-overlay">
+              <span class="project-type">CSS · FLEXBOX</span>
+              <h3>Responsive portfolio</h3>
+              <p>A responsive page exploring navigation, type, and project cards.</p>
+              <a href="#about" aria-label="Return to the portfolio introduction">Explore this page <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="project-caption"><span>02 / Portfolio</span><span aria-hidden="true">↗</span></div>
+          </article>
+          <article class="project-card project-mint">
+            <div class="project-art art-grid" aria-hidden="true"><span class="grid-box grid-box-one"></span><span class="grid-box grid-box-two"></span><span class="grid-box grid-box-three"></span><span class="grid-box grid-box-four"></span></div>
+            <div class="project-overlay">
+              <span class="project-type">CSS GRID</span>
+              <h3>Newspaper layout</h3>
+              <p>A multi-column editorial layout built with named grid areas.</p>
+              <a href="../../Module3/P11/index.html" aria-label="View the newspaper layout exercise">View exercise <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="project-caption"><span>03 / Editorial grid</span><span aria-hidden="true">↗</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Have a question or an idea?</p>
+          <h2 id="contact-title">Let’s make something<br>good together<span class="accent">.</span></h2>
+        </div>
+        <a class="button button-light" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#home">YN<span>.</span></a>
+      <p>Designed and built as a web development lab project.</p>
+      <a href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>

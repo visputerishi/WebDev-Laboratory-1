@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A sample newspaper page demonstrating CSS Grid.">
+    <title>The Daily Practice — Design & Technology</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="masthead">
+      <p class="edition">Independent student paper · Est. 2025</p>
+      <a class="paper-name" href="#top">The Daily Practice</a>
+      <p class="date">DESIGN & TECHNOLOGY · VOL. 01</p>
+    </header>
+    <nav class="paper-nav" aria-label="Sections">
+      <a href="#lead">The web</a><a href="#craft">Craft</a><a href="#ideas">Ideas</a><a href="#about">About this edition</a>
+    </nav>
+    <main class="newspaper-grid" id="top">
+      <article class="lead-story" id="lead">
+        <p class="category">THE BIG IDEA</p>
+        <h1>A better web begins with thoughtful building blocks</h1>
+        <p class="dek">Good interfaces do more than look polished. They make information easier to find, understand, and use.</p>
+        <div class="lead-art" role="img" aria-label="Abstract illustration of colorful overlapping geometric shapes"><span></span><span></span><span></span></div>
+        <p class="byline">By The Student Desk <span>·</span> 5 minute read</p>
+      </article>
+      <aside class="side-stories" id="craft" aria-labelledby="craft-title">
+        <h2 id="craft-title">From the workshop</h2>
+        <article class="brief">
+          <p class="category">HTML</p>
+          <h3>Structure is a feature, not a finishing touch</h3>
+          <p>Semantic elements help both people and browsers make sense of a page.</p>
+        </article>
+        <article class="brief">
+          <p class="category">CSS</p>
+          <h3>Small design tokens, a more consistent system</h3>
+          <p>Reusable values make visual changes easier to manage.</p>
+        </article>
+      </aside>
+      <section class="quote-box" id="ideas">
+        <span aria-hidden="true">“</span>
+        <blockquote>Clarity is a kindness you can build into a page.</blockquote>
+        <p>A note from the editor</p>
+      </section>
+      <aside class="about-box" id="about">
+        <p class="category">THIS EDITION</p>
+        <h2>Learning in public.</h2>
+        <p>A collection of practice pieces about making the web more understandable, one careful layout at a time.</p>
+        <a href="../../README.md">Explore the lab work →</a>
+      </aside>
+    </main>
+    <footer class="paper-footer"><span>The Daily Practice</span><span>Made for the web development laboratory</span></footer>
+  </body>
+</html>
