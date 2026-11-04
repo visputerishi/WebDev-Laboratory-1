@@ -4,7 +4,7 @@
 Use CSS positioning to keep navigation visible while scrolling and layer project details over a card image.
 
 ## Implementation
-In [`../portfolio/styles.css`](../portfolio/styles.css), `.site-header` uses `position: sticky`. Each `.project-card` establishes a positioning context, and its `.project-overlay` is positioned over the image and revealed on hover or keyboard focus.
+The finished page is [`index.html`](./index.html), with styles in [`styles.css`](./styles.css). `.site-header` uses `position: sticky`; each `.project-card` creates a positioning context, and `.overlay` is positioned over its artwork.
 
 ## Accessibility
-The overlay also appears on `:focus-within`, so keyboard users can reach project links and read their descriptions.
+The overlay appears on both `:hover` and `:focus-within`, so keyboard users can reach project links and read their descriptions. Open `index.html` and scroll or tab through the project links to try it.

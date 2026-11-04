@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A semantic HTML portfolio page for a web development student.">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home">Your Name</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main id="home">
+      <section class="intro" id="about" aria-labelledby="intro-title">
+        <p class="eyebrow">Student · Web development</p>
+        <h1 id="intro-title">Hello, I’m Your Name.</h1>
+        <p>I’m learning to make useful and accessible websites with HTML and CSS.</p>
+      </section>
+      <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <div class="project-list">
+          <article class="project">
+            <p class="eyebrow">Project 01</p>
+            <h3>Semantic bio page</h3>
+            <p>A short introduction built with semantic HTML elements.</p>
+            <a href="../P5/bio.html">View project</a>
+          </article>
+          <article class="project">
+            <p class="eyebrow">Project 02</p>
+            <h3>Newspaper layout</h3>
+            <p>A responsive editorial page arranged with CSS Grid.</p>
+            <a href="../../Module3/P11/index.html">View project</a>
+          </article>
+        </div>
+      </section>
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Get in touch</h2>
+        <p>Have a question about my work?</p>
+        <a href="mailto:hello@example.com">hello@example.com</a>
+      </section>
+    </main>
+    <footer><p>© 2026 Your Name · Built with semantic HTML.</p></footer>
+  </body>
+</html>

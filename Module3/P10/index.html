@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An advanced Flexbox portfolio header, hero, and footer exercise.">
+    <title>Flexbox Portfolio | P10</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">NORTH<span>®</span></a>
+      <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#journal">Journal</a></nav>
+      <a class="contact-link" href="mailto:hello@example.com">Let’s talk <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="home">
+      <section class="hero" id="about">
+        <p class="eyebrow">Independent design & development</p>
+        <h1>Digital work<br>with <em>direction.</em></h1>
+        <div class="hero-bottom"><p>We build clear, useful experiences for people and the places they find them.</p><a href="#work">Scroll to explore <span aria-hidden="true">↓</span></a></div>
+      </section>
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="section-heading"><h2 id="work-title">Selected work</h2><p>01 — 03</p></div>
+        <div class="work-row"><span>01</span><h3>Good things take shape</h3><span>Identity · Web</span><a href="../../Module2/P7/index.html" aria-label="View the design system exercise">↗</a></div>
+        <div class="work-row"><span>02</span><h3>Stories in a new order</h3><span>Editorial · CSS Grid</span><a href="../P11/index.html" aria-label="View the newspaper grid exercise">↗</a></div>
+        <div class="work-row"><span>03</span><h3>Small details, big picture</h3><span>Portfolio · HTML & CSS</span><a href="../../Module2/P9/index.html" aria-label="View the responsive portfolio exercise">↗</a></div>
+      </section>
+      <section class="journal" id="journal"><p class="eyebrow">A note on the process</p><p>Flexbox makes these pieces work together: the header balances three groups, the hero aligns text across a shared baseline, and the footer redistributes its contents as the screen narrows.</p></section>
+    </main>
+    <footer class="site-footer">
+      <a class="brand" href="#home">NORTH<span>®</span></a>
+      <p>Independent practice in thoughtful web design.</p>
+      <a href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+      <span class="copyright">© 2026</span>
+    </footer>
+  </body>
+</html>

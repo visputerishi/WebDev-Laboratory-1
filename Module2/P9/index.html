@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A responsive portfolio navigation and project card layout using Flexbox.">
+    <title>Flexbox Portfolio | P9</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">STUDIO<span>01</span></a>
+      <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+      <a class="availability" href="#contact"><span></span> Available for projects</a>
+    </header>
+    <main id="home">
+      <section class="hero">
+        <p class="eyebrow">Designer & student developer</p>
+        <h1>Ideas made<br><span>visible.</span></h1>
+        <p>A small collection of projects exploring thoughtful design and front-end development.</p>
+        <a class="button" href="#work">See selected work ↓</a>
+      </section>
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="section-heading"><div><p class="eyebrow">Selected work · 2026</p><h2 id="work-title">Things I’ve made</h2></div><p>Three studies in structure,<br>style, and the web.</p></div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="art art-one"><span>HELLO<br>THERE.</span></div>
+            <div class="card-info"><div><p>01 · HTML</p><h3>Personal bio</h3></div><a href="../P5/bio.html" aria-label="View the personal bio exercise">↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="art art-two"><span class="shape"></span><span>GRID<br>STUDY</span></div>
+            <div class="card-info"><div><p>02 · CSS GRID</p><h3>Editorial page</h3></div><a href="../../Module3/P11/index.html" aria-label="View the editorial page exercise">↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="art art-three"><span>TYPE<br>& TONE</span></div>
+            <div class="card-info"><div><p>03 · CSS</p><h3>Design system</h3></div><a href="../P7/index.html" aria-label="View the design system exercise">↗</a></div>
+          </article>
+        </div>
+      </section>
+      <section class="contact" id="about"><div><p class="eyebrow">About this portfolio</p><h2 id="contact">Made with curiosity.</h2></div><p>Every screen size deserves a layout that feels considered. Resize this page to see Flexbox adapt.</p></section>
+    </main>
+    <footer><span>STUDIO01</span><span>Responsive layout exercise · P9</span><a href="#home">Back to top ↑</a></footer>
+  </body>
+</html>

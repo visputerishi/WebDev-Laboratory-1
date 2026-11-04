@@ -4,7 +4,7 @@
 Adapt navigation and project cards to narrow and wide viewports using Flexbox.
 
 ## Implementation
-The portfolio uses Flexbox for the header, navigation, hero actions, and footer. A media query in [`../portfolio/styles.css`](../portfolio/styles.css) wraps the navigation and stacks the header on narrow screens. The projects use a responsive grid so cards fit available space.
+The finished responsive portfolio is [`index.html`](./index.html), styled by [`styles.css`](./styles.css). Flexbox lays out the header, navigation, project cards, and footer; media queries wrap or stack those elements on narrow screens.
 
 ## Try it
-Open the portfolio in a browser and use its responsive/device toolbar to check both a phone-width and desktop-width viewport.
+Open `index.html` in a browser and use its responsive/device toolbar to check both a phone-width and desktop-width viewport. The project cards use Flexbox with `flex-wrap`, not CSS Grid.

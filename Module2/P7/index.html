@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A small design system demonstrating CSS custom properties and typography.">
+    <title>Design System | P7</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar"><a href="#top">DESIGN NOTES <span>/ 07</span></a><span>TYPE & TOKENS</span></header>
+    <main id="top">
+      <section class="intro">
+        <p class="eyebrow">A reusable foundation</p>
+        <h1>Good design starts with a few thoughtful rules.</h1>
+        <p class="lede">Color, type, and spacing are defined once as CSS custom properties, then reused throughout the page.</p>
+      </section>
+      <section class="specimen" aria-labelledby="type-title">
+        <div class="section-label"><span>01</span><h2 id="type-title">Type scale</h2></div>
+        <div class="type-sample">
+          <p class="label">Display · Georgia · clamp(3rem, 8vw, 6rem)</p>
+          <p class="type-display">Make room<br>for ideas.</p>
+          <p class="label">Heading · system sans · 1.5rem</p>
+          <h3>Clarity is a design decision.</h3>
+          <p class="label">Body · system sans · 1rem / 1.7</p>
+          <p class="body-sample">A considered type scale creates hierarchy and makes content easier to scan. The same tokens can be used on every page in a project.</p>
+        </div>
+      </section>
+      <section class="specimen" aria-labelledby="color-title">
+        <div class="section-label"><span>02</span><h2 id="color-title">Color tokens</h2></div>
+        <div class="swatches">
+          <div class="swatch ink"><span>--color-ink</span><code>#25243A</code></div>
+          <div class="swatch paper"><span>--color-paper</span><code>#F7F5F0</code></div>
+          <div class="swatch accent"><span>--color-accent</span><code>#6558C9</code></div>
+          <div class="swatch muted"><span>--color-muted</span><code>#6E6D7B</code></div>
+        </div>
+      </section>
+      <section class="specimen" aria-labelledby="spacing-title">
+        <div class="section-label"><span>03</span><h2 id="spacing-title">Spacing tokens</h2></div>
+        <div class="spacing-list"><p><code>--space-1</code><span class="space-bar space-1"></span><span>8px</span></p><p><code>--space-2</code><span class="space-bar space-2"></span><span>16px</span></p><p><code>--space-3</code><span class="space-bar space-3"></span><span>24px</span></p><p><code>--space-4</code><span class="space-bar space-4"></span><span>40px</span></p></div>
+      </section>
+    </main>
+    <footer>One source of truth. A more consistent interface.</footer>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A sticky navigation bar and keyboard-accessible project card overlays.">
+    <title>Positioning Lab | P8</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#home">POSITION<span>LAB</span></a>
+      <nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+    </header>
+    <main id="home">
+      <section class="hero">
+        <p class="eyebrow">P8 · CSS positioning</p>
+        <h1>Stay in view.<br><span>Reveal what’s underneath.</span></h1>
+        <p>Scroll the page to see the sticky navigation. Hover a project card—or tab to its link—to reveal its overlay.</p>
+        <a class="jump-link" href="#projects">Explore projects ↓</a>
+      </section>
+      <section class="projects" id="projects" aria-labelledby="projects-heading">
+        <p class="eyebrow">A few experiments</p>
+        <h2 id="projects-heading">Project cards</h2>
+        <div class="card-grid">
+          <article class="project-card card-one">
+            <div class="art"><span>01</span></div>
+            <div class="overlay"><p>HTML · PAGE DESIGN</p><h3>Bio page</h3><p>A clear introduction built with semantic HTML.</p><a href="../P5/bio.html">Open exercise ↗</a></div>
+            <h3 class="caption">A little about me</h3>
+          </article>
+          <article class="project-card card-two">
+            <div class="art"><span>02</span></div>
+            <div class="overlay"><p>CSS · GRID</p><h3>Editorial layout</h3><p>A newspaper page arranged with named grid areas.</p><a href="../../Module3/P11/index.html">Open exercise ↗</a></div>
+            <h3 class="caption">Stories in columns</h3>
+          </article>
+          <article class="project-card card-three">
+            <div class="art"><span>03</span></div>
+            <div class="overlay"><p>CSS · LAYOUT</p><h3>Flex or Grid?</h3><p>A responsive comparison of two layout systems.</p><a href="../../Module3/P13/index.html">Open exercise ↗</a></div>
+            <h3 class="caption">Choosing a layout</h3>
+          </article>
+        </div>
+      </section>
+      <section class="more" id="about"><h2 id="contact">Positioning puts interface details in the right place.</h2><p>Keep scrolling—the navigation stays at the top of the window.</p></section>
+    </main>
+    <footer>CSS Positioning Lab · P8</footer>
+  </body>
+</html>

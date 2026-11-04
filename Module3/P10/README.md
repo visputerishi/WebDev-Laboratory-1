@@ -4,7 +4,7 @@
 Use Flexbox alignment, spacing, and wrapping to build balanced portfolio navigation and footer layouts.
 
 ## Implementation
-The portfolio header and footer are in [`../../Module2/portfolio/index.html`](../../Module2/portfolio/index.html), styled in [`../../Module2/portfolio/styles.css`](../../Module2/portfolio/styles.css). Both use Flexbox; the header wraps and reorders navigation at smaller viewport widths.
+The completed page is [`index.html`](./index.html), styled in [`styles.css`](./styles.css). The header distributes its brand, navigation, and contact link; the footer distributes branding, descriptive text, and contact details.
 
 ## Try it
-Resize the browser and verify that the header links remain usable and the footer items wrap without horizontal scrolling.
+Open `index.html`, then resize the browser. The header navigation wraps below the brand and CTA, and the footer wraps its elements without horizontal overflow.

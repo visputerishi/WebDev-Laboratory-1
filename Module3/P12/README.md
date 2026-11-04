@@ -4,7 +4,7 @@
 Arrange a set of portfolio projects in a responsive grid that adapts to available space.
 
 ## Implementation
-The project-card grid is `.project-grid` in [`../../Module2/portfolio/styles.css`](../../Module2/portfolio/styles.css). It uses equal `minmax(0, 1fr)` columns on desktop and changes to two columns and then one column at smaller breakpoints. Each card is an independent semantic `article`.
+The completed gallery is [`index.html`](./index.html), with styles in [`styles.css`](./styles.css). Its `.projects` container uses named grid areas and responsive column templates to give selected projects different sizes while keeping each project as a semantic `article`.
 
 ## Try it
-Resize the portfolio viewport and confirm the cards reflow without horizontal scrolling.
+Open `index.html` and resize the viewport. The gallery changes from an editorial three-column layout to two columns and then a single column without horizontal scrolling.
