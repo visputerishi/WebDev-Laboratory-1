@@ -28,7 +28,8 @@ a {
 }
 
 .brand span,
-.accent {
+.accent,
+h1 span {
   color: #6959d7;
 }
 
@@ -82,10 +83,6 @@ h2 {
 h1 {
   font-size: 56px;
   line-height: 1.1;
-}
-
-h1 span {
-  color: #6959d7;
 }
 
 .hero-description {
@@ -172,10 +169,6 @@ h1 span {
 .project-card:hover .project-overlay,
 .project-card:focus-within .project-overlay {
   opacity: 1;
-}
-
-.project-overlay a {
-  color: white;
 }
 
 .project-caption {
